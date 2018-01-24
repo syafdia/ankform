@@ -1,6 +1,11 @@
 package com.github.syafdia.ankform.form
 
 import android.content.Context
+import android.view.View
+import android.view.ViewGroup
+import android.widget.EditText
+import android.widget.LinearLayout
+import android.widget.TextView
 
 class Text(
         override val context: Context,
@@ -12,8 +17,24 @@ class Text(
 
     override var errorMessage: String? = null
 
-    override fun render() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    override fun render(): View {
+        val textView = TextView(context)
+        val editText = EditText(context)
+        val layoutParams =  LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+                )
+
+        val linearLayout = LinearLayout(context)
+
+        textView.text = label
+        editText.layoutParams = layoutParams
+
+        linearLayout.addView(textView)
+        linearLayout.addView(editText)
+        linearLayout.orientation = LinearLayout.VERTICAL
+
+        return linearLayout
     }
 
 }

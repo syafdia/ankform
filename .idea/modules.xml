@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AnKForm.iml" filepath="$PROJECT_DIR$/AnKForm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AnKForm.iml" filepath="$PROJECT_DIR$/AnKForm.iml" />
       <module fileurl="file://$PROJECT_DIR$/ankform/ankform.iml" filepath="$PROJECT_DIR$/ankform/ankform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ankform/ankform.iml" filepath="$PROJECT_DIR$/ankform/ankform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" />
       <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" />
     </modules>
   </component>

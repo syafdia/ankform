@@ -1,6 +1,7 @@
 package com.github.syafdia.ankform.form
 
 import android.content.Context
+import android.view.View
 
 interface Form {
 
@@ -14,5 +15,5 @@ interface Form {
 
     var errorMessage: String?
 
-    fun render()
+    fun render(): View
 }

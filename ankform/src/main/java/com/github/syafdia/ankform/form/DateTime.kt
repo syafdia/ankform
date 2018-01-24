@@ -1,6 +1,7 @@
 package com.github.syafdia.ankform.form
 
 import android.content.Context
+import android.widget.DatePicker
 
 class DateTime(
         override val context: Context,
@@ -12,7 +13,7 @@ class DateTime(
 
     override var errorMessage: String? = null
 
-    override fun render() {
+    override fun render(): DatePicker {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 }
